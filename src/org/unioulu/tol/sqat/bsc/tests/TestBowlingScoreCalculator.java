@@ -82,14 +82,14 @@ public class TestBowlingScoreCalculator {
 		int firstScoreFrameTen = bowlingGame.getFrame(9).getFirstThrow();
 		int secondScoreFrameTen = bowlingGame.getFrame(9).getSecondThrow();
 		
-		assertEquals(1, firstScoreFrameTen);
-		assertEquals(5, secondScoreFrameTen);
+		assertEquals(2, firstScoreFrameTen);
+		assertEquals(6, secondScoreFrameTen);
 		
 		int firstScoreFrameOne = bowlingGame.getFrame(0).getFirstThrow();
 		int secondScoreFrameOne = bowlingGame.getFrame(0).getSecondThrow();
 		
-		assertEquals(2, firstScoreFrameOne);
-		assertEquals(6, secondScoreFrameOne);
+		assertEquals(1, firstScoreFrameOne);
+		assertEquals(5, secondScoreFrameOne);
 	}
 	
 
