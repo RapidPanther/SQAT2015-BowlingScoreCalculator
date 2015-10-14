@@ -42,16 +42,16 @@ public class BowlingGame {
 		
 		score = frames.get(frameNumber).score();
 		
-		if(frames.get(frameNumber).isStrike() && frameNumber +1 < 10){
+		if(frames.get(frameNumber).isStrike() && frameNumber +1 < frames.size()){
 			score = score + frames.get(frameNumber +1).score();
 			
-			if(frames.get(frameNumber + 1).getFirstThrow() == 10 && frameNumber +1 < 10)
+			if(frames.get(frameNumber + 1).getFirstThrow() == 10 && frameNumber +1 < frames.size())
 			{
 				score = score + frames.get(frameNumber + 2).getFirstThrow();
 			}
 				
 		}
-		else if(frames.get(frameNumber).isSpare() && frameNumber +1 < 10){
+		else if(frames.get(frameNumber).isSpare() && frameNumber +1 < frames.size()){
 			score = score + frames.get(frameNumber +1).getFirstThrow();
 		}
 			
