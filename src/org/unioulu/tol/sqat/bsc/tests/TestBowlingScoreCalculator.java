@@ -10,9 +10,44 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 	BowlingGame bowlingGame;
 	
+	
+	
+	Frame frame0;
+	Frame frame1;
+	Frame frame2;
+	Frame frame3;
+	Frame frame4;
+	Frame frame5;
+	Frame frame6;
+	Frame frame7;
+	Frame frame8;
+	Frame frame9;
+	
 	@Before
 	public void setup(){
 		bowlingGame = new BowlingGame();
+		
+		frame0 = new Frame(1, 5);
+		frame1 = new Frame(3, 6);
+		frame2 = new Frame(7, 2);
+		frame3 = new Frame(3, 6);
+		frame4 = new Frame(4, 4);
+		frame5 = new Frame(5, 3);
+		frame6 = new Frame(3, 3);
+		frame7 = new Frame(4, 5);
+		frame8 = new Frame(8, 1);
+		frame9 = new Frame(2, 6);
+		
+		bowlingGame.addFrame(frame0);
+		bowlingGame.addFrame(frame1);
+		bowlingGame.addFrame(frame2);
+		bowlingGame.addFrame(frame3);
+		bowlingGame.addFrame(frame4);
+		bowlingGame.addFrame(frame5);
+		bowlingGame.addFrame(frame6);
+		bowlingGame.addFrame(frame7);
+		bowlingGame.addFrame(frame8);
+		bowlingGame.addFrame(frame9);
 	}
 	
 	
@@ -36,6 +71,11 @@ public class TestBowlingScoreCalculator {
 		Frame frame = new Frame(2, 6);
 		
 		assertEquals(8, frame.score());
+	}
+	
+	@Test
+	public void testAddFrame(){
+		
 	}
 	
 

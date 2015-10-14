@@ -57,3 +57,29 @@ CompilationAction 1444823574291 TestBowlingScoreCalculator.java
 UnitTestCaseAction 1444823575775 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444823575775 TestBowlingScoreCalculator.testScoreFrameZeroNine_ReturnsNine FAIL
 EditAction 1444823609064 Frame.java 1136 10 12 0
+UnitTestCaseAction 1444823611316 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823611316 TestBowlingScoreCalculator.testScoreFrameZeroNine_ReturnsNine OK
+RefactoringAction 1444823684983 TestBowlingScoreCalculator.java ADD void T FIELD
+RefactoringAction 1444823692997 TestBowlingScoreCalculator.java RENAME T=>void testAddFrame() METHOD
+RefactoringAction 1444823721609 TestBowlingScoreCalculator.java ADD Frame frame0 FIELD
+RefactoringAction 1444823728618 TestBowlingScoreCalculator.java ADD Frame frame0/2 FIELD
+RefactoringAction 1444823728619 TestBowlingScoreCalculator.java ADD Frame frame0/3 FIELD
+RefactoringAction 1444823728619 TestBowlingScoreCalculator.java ADD Frame frame0/4 FIELD
+RefactoringAction 1444823728619 TestBowlingScoreCalculator.java ADD Frame frame0/5 FIELD
+RefactoringAction 1444823728619 TestBowlingScoreCalculator.java ADD Frame frame0/6 FIELD
+RefactoringAction 1444823728620 TestBowlingScoreCalculator.java ADD Frame frame0/7 FIELD
+RefactoringAction 1444823728620 TestBowlingScoreCalculator.java ADD Frame frame0/8 FIELD
+RefactoringAction 1444823728620 TestBowlingScoreCalculator.java ADD Frame frame0/9 FIELD
+RefactoringAction 1444823728620 TestBowlingScoreCalculator.java ADD Frame frame0/10 FIELD
+RefactoringAction 1444823728620 TestBowlingScoreCalculator.java ADD Frame frame0/11 FIELD
+RefactoringAction 1444823731635 TestBowlingScoreCalculator.java ADD Frame frame1 FIELD
+RefactoringAction 1444823731636 TestBowlingScoreCalculator.java ADD Frame frame2 FIELD
+RefactoringAction 1444823733154 TestBowlingScoreCalculator.java RENAME frame0/9=>Frame frame4 FIELD
+RefactoringAction 1444823736171 TestBowlingScoreCalculator.java ADD Frame frame3 FIELD
+RefactoringAction 1444823736172 TestBowlingScoreCalculator.java ADD Frame frame5 FIELD
+RefactoringAction 1444823737688 TestBowlingScoreCalculator.java RENAME frame0/6=>Frame frame6 FIELD
+RefactoringAction 1444823738704 TestBowlingScoreCalculator.java RENAME frame0/5=>Frame frame7 FIELD
+RefactoringAction 1444823739725 TestBowlingScoreCalculator.java RENAME frame0/4=>Frame frame8 FIELD
+RefactoringAction 1444823740741 TestBowlingScoreCalculator.java RENAME frame0/3=>Frame frame9 FIELD
+RefactoringAction 1444823743760 TestBowlingScoreCalculator.java REMOVE frame0/2 FIELD
+EditAction 1444823895242 TestBowlingScoreCalculator.java 1698 5 28 4
