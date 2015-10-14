@@ -22,7 +22,7 @@ public class BowlingGame {
 		int score = 0;
 		
 		for(int i = 0; i < frames.size(); i++){
-			score = score + frames.get(i).score();
+			score = score + getFrameScore(i);
 		}
 		
 		return score;
