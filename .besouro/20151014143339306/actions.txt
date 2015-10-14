@@ -50,3 +50,10 @@ UnitTestCaseAction 1444823543622 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444823543622 TestBowlingScoreCalculator OK
 RefactoringAction 1444823550104 TestBowlingScoreCalculator.java ADD void testScoreFrameTwoSix_ReturnsEight()/2 METHOD
 EditAction 1444823562028 TestBowlingScoreCalculator.java 851 4 8 4
+CompilationAction 1444823562296 TestBowlingScoreCalculator.java
+RefactoringAction 1444823569671 TestBowlingScoreCalculator.java RENAME testScoreFrameTwoSix_ReturnsEight()/2=>void testScoreFrameZeroNine_ReturnsEight() METHOD
+RefactoringAction 1444823573189 TestBowlingScoreCalculator.java RENAME testScoreFrameZeroNine_ReturnsEight()=>void testScoreFrameZeroNine_ReturnsNine() METHOD
+CompilationAction 1444823574291 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444823575775 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444823575775 TestBowlingScoreCalculator.testScoreFrameZeroNine_ReturnsNine FAIL
+EditAction 1444823609064 Frame.java 1136 10 12 0

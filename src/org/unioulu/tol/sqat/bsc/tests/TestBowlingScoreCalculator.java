@@ -25,7 +25,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreFrameTwoSix_ReturnsEight(){
+	public void testScoreFrameZeroNine_ReturnsNine(){
 		Frame frame = new Frame(0, 9);
 		
 		assertEquals(9, frame.score());
