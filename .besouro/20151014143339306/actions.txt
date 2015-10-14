@@ -46,3 +46,7 @@ EditAction 1444823466703 TestBowlingScoreCalculator.java 712 3 6 3
 UnitTestCaseAction 1444823468354 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444823468355 TestBowlingScoreCalculator FAIL
 EditAction 1444823541930 Frame.java 1094 10 11 0
+UnitTestCaseAction 1444823543622 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823543622 TestBowlingScoreCalculator OK
+RefactoringAction 1444823550104 TestBowlingScoreCalculator.java ADD void testScoreFrameTwoSix_ReturnsEight()/2 METHOD
+EditAction 1444823562028 TestBowlingScoreCalculator.java 851 4 8 4
