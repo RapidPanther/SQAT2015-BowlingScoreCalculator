@@ -29,6 +29,6 @@ public class BowlingGame {
 	}
 	
 	public Frame getFrame(int frameNumber){
-		return frames.get(0);
+		return frames.get(frameNumber);
 	}
 }
