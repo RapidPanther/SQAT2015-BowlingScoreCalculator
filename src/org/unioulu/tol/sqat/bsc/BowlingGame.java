@@ -42,6 +42,7 @@ public class BowlingGame {
 		
 		score = frames.get(frameNumber).score();
 		
+		//strike
 		if(frames.get(frameNumber).isStrike() && frameNumber +1 < frames.size()){
 			score = score + frames.get(frameNumber +1).score();
 			
@@ -51,8 +52,13 @@ public class BowlingGame {
 			}
 				
 		}
+		//spare
 		else if(frames.get(frameNumber).isSpare() && frameNumber +1 < frames.size()){
 			score = score + frames.get(frameNumber +1).getFirstThrow();
+			
+			if(frameNumber == frames.size() -1){
+				score = score + this.bonus.getFirstThrow();
+			}
 		}
 			
 		return score;
