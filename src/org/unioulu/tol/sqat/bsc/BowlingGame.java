@@ -59,6 +59,7 @@ public class BowlingGame {
 			//if(frameNumber == frames.size() -1){
 			if(frameNumber == 9){
 				score = score + this.bonus.getFirstThrow();
+				System.out.println(this.bonus.getFirstThrow());
 			}
 		}
 			
