@@ -14,3 +14,8 @@ EditAction 1444823273083 TestBowlingScoreCalculator.java 543 2 4 2
 CompilationAction 1444823273262 TestBowlingScoreCalculator.java
 CompilationAction 1444823273262 TestBowlingScoreCalculator.java
 EditAction 1444823278915 Frame.java 800 6 7 0
+RefactoringAction 1444823315011 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1444823315011 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1444823315012 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1444823315012 Frame.java ADD void setSecondThrow(int) METHOD
+EditAction 1444823318834 Frame.java 1094 10 11 0
