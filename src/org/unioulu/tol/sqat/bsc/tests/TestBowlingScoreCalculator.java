@@ -235,12 +235,12 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreBowlingGameWithOneStrikeWithFollowingSpare_Return102(){
+	public void testScoreBowlingGameWithOneStrikeWithFollowingSpare_Return103(){
 		initializeFramesWithOneStrikeFollowedByOneSpare();
 		addFrames();
 		int score = bowlingGame.score();
 		
-		assertEquals(103, score);
+		assertEquals(102, score);
 	}
 
 }
