@@ -45,16 +45,9 @@ public class BowlingGame {
 		if(frames.get(frameNumber).isStrike() && frames.get(frameNumber +1) != null){
 			score = score + frames.get(frameNumber +1).score();
 			
-			/* strike after strike after strike...
-			int counter = 1;
-			while(frames.get(frameNumber +counter).getFirstThrow() == 10 && frames.get(frameNumber +counter) != null){
-				score = score + frames.get(frameNumber + counter + 1).score();
-			}
-			*/
-			
 			if(frames.get(frameNumber + 1).getFirstThrow() == 10 && frames.get(frameNumber +1) != null)
 			{
-				score = score + frames.get(frameNumber + 2).score();
+				score = score + frames.get(frameNumber + 2).getFirstThrow();
 			}
 				
 		}
