@@ -217,3 +217,7 @@ UnitTestSessionAction 1444826186163 TestBowlingScoreCalculator OK
 RefactoringAction 1444826285449 TestBowlingScoreCalculator.java ADD void initializeFramesWithOneStrike()/2 METHOD
 RefactoringAction 1444826289473 TestBowlingScoreCalculator.java RENAME initializeFramesWithOneStrike()/2=>void initializeFramesWithOneSpare() METHOD
 EditAction 1444826296966 TestBowlingScoreCalculator.java 4006 14 78 13
+RefactoringAction 1444826377580 TestBowlingScoreCalculator.java ADD void testIsStrike_ReturnFalse()/2 METHOD
+RefactoringAction 1444826381604 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFalse()/2=>void testIsS_ReturnFalse() METHOD
+RefactoringAction 1444826383128 TestBowlingScoreCalculator.java RENAME testIsS_ReturnFalse()=>void testIsSpare_ReturnFalse() METHOD
+EditAction 1444826420636 TestBowlingScoreCalculator.java 4214 15 82 14

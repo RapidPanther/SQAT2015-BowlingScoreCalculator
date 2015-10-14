@@ -172,7 +172,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(94, score);
 	}
 	
-	
+	@Test
+	public void testIsSpare_ReturnFalse(){
+		initializeFramesWithOneSpare();
+		addFrames();
+		
+		boolean isFrameSpare = bowlingGame.getFrame(1).isSpare();
+		
+		assertEquals(false, isFrameSpare);
+	}
 	
 
 }
