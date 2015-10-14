@@ -92,6 +92,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddFrame(){
+		initializeFrames();
 		addFrames();
 		
 		//frame 1
@@ -112,6 +113,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testScoreBowlingGameWithDefaultFrames_ReturnEightyOne(){
+		initializeFrames();
 		addFrames();
 		int score = bowlingGame.score();
 		

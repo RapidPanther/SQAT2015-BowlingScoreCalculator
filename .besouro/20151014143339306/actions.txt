@@ -156,3 +156,4 @@ RefactoringAction 1444824955644 TestBowlingScoreCalculator.java RENAME initializ
 RefactoringAction 1444824960169 TestBowlingScoreCalculator.java RENAME initializeFramesWithOneStrik()=>void initializeFrames() METHOD
 RefactoringAction 1444824977480 TestBowlingScoreCalculator.java REMOVE addFramesWithOneStrike() METHOD
 EditAction 1444824978701 TestBowlingScoreCalculator.java 2782 9 50 9
+EditAction 1444824997309 TestBowlingScoreCalculator.java 2828 9 52 9
