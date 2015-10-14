@@ -189,3 +189,6 @@ RefactoringAction 1444825598839 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444825599862 TestBowlingScoreCalculator.java RENAME testScoreOfStrike_ReturnNineTeen()=>void testScoreOfStrike_ReturnNineteen() METHOD
 RefactoringAction 1444825767497 BowlingGame.java ADD int getFrameScore(Frame) METHOD
 EditAction 1444825805789 TestBowlingScoreCalculator.java 3465 12 64 12
+CompilationAction 1444825805914 TestBowlingScoreCalculator.java
+RefactoringAction 1444825815283 BowlingGame.java RENAME getFrameScore(Frame)=>int getFrameScore(int) METHOD
+EditAction 1444825988114 BowlingGame.java 1051 7 10 0

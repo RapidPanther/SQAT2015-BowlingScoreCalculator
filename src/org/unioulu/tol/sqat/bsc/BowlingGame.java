@@ -36,4 +36,16 @@ public class BowlingGame {
 	public Frame getFrame(int frameNumber){
 		return frames.get(frameNumber);
 	}
+
+	public int getFrameScore(int frameNumber) {
+		int score = 0;
+		
+		score = frames.get(frameNumber).score();
+		
+		if(frames.get(frameNumber).isStrike() && frames.get(frameNumber +1) != null){
+			score = score + frames.get(frameNumber +1).score();
+		}
+			
+		return score;
+	}
 }
