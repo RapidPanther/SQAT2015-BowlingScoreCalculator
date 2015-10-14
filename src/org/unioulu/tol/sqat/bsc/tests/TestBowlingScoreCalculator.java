@@ -37,7 +37,9 @@ public class TestBowlingScoreCalculator {
 		frame7 = new Frame(4, 5);
 		frame8 = new Frame(8, 1);
 		frame9 = new Frame(2, 6);
-		
+	}
+	
+	public void addFrames(){
 		bowlingGame.addFrame(frame0);
 		bowlingGame.addFrame(frame1);
 		bowlingGame.addFrame(frame2);
@@ -75,7 +77,13 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testAddFrame(){
+		addFrames();
 		
+		int firstScoreFrameOne = bowlingGame.getFrame(0).getFirstThrow();
+		int secondScoreFrameOne = bowlingGame.getFrame(0).getSecondThrow();
+		
+		assertEquals(1, firstScoreFrameOne);
+		assertEquals(5, secondScoreFrameOne);
 	}
 	
 

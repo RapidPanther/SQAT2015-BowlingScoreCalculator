@@ -83,3 +83,8 @@ RefactoringAction 1444823739725 TestBowlingScoreCalculator.java RENAME frame0/4=
 RefactoringAction 1444823740741 TestBowlingScoreCalculator.java RENAME frame0/3=>Frame frame9 FIELD
 RefactoringAction 1444823743760 TestBowlingScoreCalculator.java REMOVE frame0/2 FIELD
 EditAction 1444823895242 TestBowlingScoreCalculator.java 1698 5 28 4
+RefactoringAction 1444823927615 TestBowlingScoreCalculator.java ADD void addFrames() METHOD
+RefactoringAction 1444824036839 BowlingGame.java ADD Frame getFrame FIELD
+RefactoringAction 1444824037850 BowlingGame.java RENAME getFrame=>Frame getFrame() METHOD
+RefactoringAction 1444824042863 BowlingGame.java RENAME getFrame()=>Frame getFrame(int) METHOD
+EditAction 1444824164330 TestBowlingScoreCalculator.java 1969 6 33 6
