@@ -32,3 +32,14 @@ RefactoringAction 1444823362131 TestBowlingScoreCalculator.java RENAME testAddFr
 RefactoringAction 1444823364145 TestBowlingScoreCalculator.java RENAME testAddFrameTwoAndFour_ReturnTw()=>void testAddFrameTwoAndFour_ReturnTwoAnd() METHOD
 RefactoringAction 1444823366161 TestBowlingScoreCalculator.java RENAME testAddFrameTwoAndFour_ReturnTwoAnd()=>void testAddFrameTwoAndFour_ReturnTwoAndFour() METHOD
 EditAction 1444823367119 TestBowlingScoreCalculator.java 576 2 4 2
+UnitTestCaseAction 1444823368808 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823368808 TestBowlingScoreCalculator.testAddFrameTwoAndFour_ReturnTwoAndFour OK
+RefactoringAction 1444823399069 TestBowlingScoreCalculator.java ADD void testScore() METHOD
+RefactoringAction 1444823423159 TestBowlingScoreCalculator.java RENAME testScore()=>void testScoreFrame() METHOD
+RefactoringAction 1444823425676 TestBowlingScoreCalculator.java RENAME testScoreFrame()=>void testScoreFrameT() METHOD
+RefactoringAction 1444823428691 TestBowlingScoreCalculator.java RENAME testScoreFrameT()=>void testScoreFrameTwoAnd() METHOD
+RefactoringAction 1444823431709 TestBowlingScoreCalculator.java RENAME testScoreFrameTwoAnd()=>void testScoreFrameTwoS() METHOD
+RefactoringAction 1444823433226 TestBowlingScoreCalculator.java RENAME testScoreFrameTwoS()=>void testScoreFrameTwoSix() METHOD
+RefactoringAction 1444823436241 TestBowlingScoreCalculator.java RENAME testScoreFrameTwoSix()=>void testScoreFrameTwoSix_Returns() METHOD
+RefactoringAction 1444823437751 TestBowlingScoreCalculator.java RENAME testScoreFrameTwoSix_Returns()=>void testScoreFrameTwoSix_ReturnsEight() METHOD
+EditAction 1444823466703 TestBowlingScoreCalculator.java 712 3 6 3
