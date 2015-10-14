@@ -367,5 +367,16 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(92, score);
 	}
+	
+	@Test
+	public void testScoreBowlingGameWithSpareAsLastFrameWithBonusTen_Return93(){
+		initializeFramesWithSpareAsLastFrame();
+		addFrames();
+		bowlingGame.setBonus(10, 0);
+		
+		int score = bowlingGame.score();
+		
+		assertEquals(93, score);
+	}
 
 }
