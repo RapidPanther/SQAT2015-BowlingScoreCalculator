@@ -43,3 +43,6 @@ RefactoringAction 1444823433226 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444823436241 TestBowlingScoreCalculator.java RENAME testScoreFrameTwoSix()=>void testScoreFrameTwoSix_Returns() METHOD
 RefactoringAction 1444823437751 TestBowlingScoreCalculator.java RENAME testScoreFrameTwoSix_Returns()=>void testScoreFrameTwoSix_ReturnsEight() METHOD
 EditAction 1444823466703 TestBowlingScoreCalculator.java 712 3 6 3
+UnitTestCaseAction 1444823468354 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444823468355 TestBowlingScoreCalculator FAIL
+EditAction 1444823541930 Frame.java 1094 10 11 0
