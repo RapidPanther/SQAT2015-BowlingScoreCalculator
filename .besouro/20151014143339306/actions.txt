@@ -383,3 +383,11 @@ EditAction 1444828735818 BowlingGame.java 1534 7 11 0
 UnitTestCaseAction 1444828739568 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444828739569 TestBowlingScoreCalculator OK
 EditAction 1444828743833 TestBowlingScoreCalculator.java 7915 29 164 24
+UnitTestCaseAction 1444828745604 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828745605 TestBowlingScoreCalculator OK
+RefactoringAction 1444828781094 TestBowlingScoreCalculator.java ADD void initializeFrames()/2 METHOD
+RefactoringAction 1444828784117 TestBowlingScoreCalculator.java RENAME initializeFrames()/2=>void initializeFramesWith() METHOD
+RefactoringAction 1444828793646 TestBowlingScoreCalculator.java RENAME initializeFramesWith()=>void initializeFramesWithStrikeAsLastFramre() METHOD
+RefactoringAction 1444828794672 TestBowlingScoreCalculator.java RENAME initializeFramesWithStrikeAsLastFramre()=>void initializeFramesWithStrikeAsLastFramr() METHOD
+RefactoringAction 1444828799223 TestBowlingScoreCalculator.java RENAME initializeFramesWithStrikeAsLastFramr()=>void initializeFramesWithStrikeAsLastFrame() METHOD
+EditAction 1444828799805 TestBowlingScoreCalculator.java 8270 30 174 24
