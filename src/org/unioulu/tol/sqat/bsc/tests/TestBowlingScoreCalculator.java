@@ -36,7 +36,7 @@ public class TestBowlingScoreCalculator {
 		frame6 = new Frame(3, 3);
 		frame7 = new Frame(4, 5);
 		frame8 = new Frame(8, 1);
-		frame9 = new Frame(2, 7);
+		frame9 = new Frame(2, 6);
 	}
 	
 	public void addFrames(){
@@ -100,7 +100,7 @@ public class TestBowlingScoreCalculator {
 		addFrames();
 		int score = bowlingGame.score();
 		
-		assertEquals(82, score);
+		assertEquals(81, score);
 	}
 	
 
