@@ -1,0 +1,13 @@
+FileOpenedAction 1444822419615 TestBowlingScoreCalculator.java 223 1 1 0
+FileOpenedAction 1444822449649 BowlingGame.java 584 5 2 0
+FileOpenedAction 1444822451003 Frame.java 794 6 7 0
+RefactoringAction 1444823082262 TestBowlingScoreCalculator.java RENAME test()=>void testAdd() METHOD
+RefactoringAction 1444823083778 TestBowlingScoreCalculator.java RENAME testAdd()=>void testAddFrame() METHOD
+RefactoringAction 1444823120878 TestBowlingScoreCalculator.java ADD BowlingGame bowlingGame FIELD
+RefactoringAction 1444823131430 TestBowlingScoreCalculator.java REMOVE bowlingGame FIELD
+RefactoringAction 1444823136943 TestBowlingScoreCalculator.java ADD BowlingGame bowlingGame FIELD
+RefactoringAction 1444823141994 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1444823161057 TestBowlingScoreCalculator.java ADD void setup() METHOD
+RefactoringAction 1444823175451 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444823212889 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+EditAction 1444823273083 TestBowlingScoreCalculator.java 543 2 4 2
