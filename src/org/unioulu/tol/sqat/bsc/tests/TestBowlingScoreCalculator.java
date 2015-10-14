@@ -133,6 +133,19 @@ public class TestBowlingScoreCalculator {
 		frame9 = new Frame(10, 0);
 	}
 	
+	public void initializeFramesWithBestScore(){
+		frame0 = new Frame(10, 10);
+		frame1 = new Frame(10, 10);
+		frame2 = new Frame(10, 10);
+		frame3 = new Frame(10, 10);
+		frame4 = new Frame(10, 10);
+		frame5 = new Frame(10, 10);
+		frame6 = new Frame(10, 10);
+		frame7 = new Frame(10, 10);
+		frame8 = new Frame(10, 10);
+		frame9 = new Frame(10, 10);
+	}
+	
 	
 	public void addFrames(){
 		bowlingGame.addFrame(frame0);
@@ -377,6 +390,11 @@ public class TestBowlingScoreCalculator {
 		int score = bowlingGame.score();
 		
 		assertEquals(93, score);
+	}
+	
+	@Test
+	public void testScoreBestScore(){
+		
 	}
 
 }

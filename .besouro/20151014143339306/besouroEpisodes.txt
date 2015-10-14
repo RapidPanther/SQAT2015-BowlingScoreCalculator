@@ -252,3 +252,6 @@
 1444829087496 test-first 3 306 true
 1444829087497 test-first 3 306 true
 1444829087498 test-first 3 306 true
+1444829373013 test-addition 1 69 true
+1444829373014 test-addition 1 69 true
+1444829373015 test-addition 1 69 true
