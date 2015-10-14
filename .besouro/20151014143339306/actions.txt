@@ -139,3 +139,20 @@ EditAction 1444824711780 TestBowlingScoreCalculator.java 2399 7 40 9
 UnitTestCaseAction 1444824713082 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444824713082 TestBowlingScoreCalculator FAIL
 EditAction 1444824728288 TestBowlingScoreCalculator.java 2399 7 40 9
+UnitTestCaseAction 1444824730270 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824730271 TestBowlingScoreCalculator OK
+RefactoringAction 1444824849715 TestBowlingScoreCalculator.java ADD void addFrames()/2 METHOD
+RefactoringAction 1444824856238 TestBowlingScoreCalculator.java RENAME addFrames()/2=>void addFramesWith() METHOD
+RefactoringAction 1444824859761 TestBowlingScoreCalculator.java RENAME addFramesWith()=>void addFramesWithOneStrike() METHOD
+RefactoringAction 1444824922915 TestBowlingScoreCalculator.java ADD void create FIELD
+RefactoringAction 1444824924438 TestBowlingScoreCalculator.java REMOVE create FIELD
+RefactoringAction 1444824929452 TestBowlingScoreCalculator.java ADD void initial FIELD
+RefactoringAction 1444824930472 TestBowlingScoreCalculator.java RENAME initial=>void initiali FIELD
+RefactoringAction 1444824933997 TestBowlingScoreCalculator.java RENAME initiali=>void initializeFrames() METHOD
+RefactoringAction 1444824943548 TestBowlingScoreCalculator.java RENAME initializeFrames()=>void initializeFramesWithOneStrik() METHOD
+RefactoringAction 1444824950094 TestBowlingScoreCalculator.java ADD void initializeFramesWithOneStrik()/2 METHOD
+RefactoringAction 1444824953618 TestBowlingScoreCalculator.java RENAME initializeFramesWithOneStrik()/2=>void initializeFramesWithOneStrik2() METHOD
+RefactoringAction 1444824955644 TestBowlingScoreCalculator.java RENAME initializeFramesWithOneStrik2()=>void initializeFramesWithOneStrike() METHOD
+RefactoringAction 1444824960169 TestBowlingScoreCalculator.java RENAME initializeFramesWithOneStrik()=>void initializeFrames() METHOD
+RefactoringAction 1444824977480 TestBowlingScoreCalculator.java REMOVE addFramesWithOneStrike() METHOD
+EditAction 1444824978701 TestBowlingScoreCalculator.java 2782 9 50 9
