@@ -11,3 +11,6 @@ RefactoringAction 1444823161057 TestBowlingScoreCalculator.java ADD void setup()
 RefactoringAction 1444823175451 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
 RefactoringAction 1444823212889 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
 EditAction 1444823273083 TestBowlingScoreCalculator.java 543 2 4 2
+CompilationAction 1444823273262 TestBowlingScoreCalculator.java
+CompilationAction 1444823273262 TestBowlingScoreCalculator.java
+EditAction 1444823278915 Frame.java 800 6 7 0
