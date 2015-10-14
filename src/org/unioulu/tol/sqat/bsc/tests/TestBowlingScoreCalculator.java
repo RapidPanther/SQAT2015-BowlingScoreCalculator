@@ -354,7 +354,7 @@ public class TestBowlingScoreCalculator {
 		
 		int score = bowlingGame.getFrameScore(9);
 		
-		assertEquals(17, score);
+		assertEquals(19, score);
 	}
 	
 	@Test

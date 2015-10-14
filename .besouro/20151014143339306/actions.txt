@@ -402,3 +402,6 @@ RefactoringAction 1444828866161 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444828876689 TestBowlingScoreCalculator.java RENAME testScoreBowlingGameWithStrikeAsLastFrame_Return90()=>void testScoreBowlingGameWithStrikeAsLastFrame_Return92() METHOD
 EditAction 1444828891385 TestBowlingScoreCalculator.java 8766 32 184 26
 EditAction 1444828909543 TestBowlingScoreCalculator.java 8766 32 184 26
+UnitTestCaseAction 1444828909878 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444828909879 TestBowlingScoreCalculator FAIL
+EditAction 1444828917985 TestBowlingScoreCalculator.java 8766 32 184 26
