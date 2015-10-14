@@ -100,7 +100,7 @@ public class TestBowlingScoreCalculator {
 		addFrames();
 		int score = bowlingGame.score();
 		
-		assertEquals(81, score);
+		assertEquals(82, score);
 	}
 	
 
