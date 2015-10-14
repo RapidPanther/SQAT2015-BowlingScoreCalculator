@@ -169,3 +169,8 @@ RefactoringAction 1444825360716 TestBowlingScoreCalculator.java ADD void testIsS
 RefactoringAction 1444825363236 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnTrue()/2=>void testIsStrike_ReturnFa() METHOD
 RefactoringAction 1444825364258 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFa()=>void testIsStrike_ReturnFalls() METHOD
 EditAction 1444825366073 TestBowlingScoreCalculator.java 3263 11 60 11
+UnitTestCaseAction 1444825367702 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444825367703 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444825399369 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFalls()=>void testIsStrike_ReturnFals() METHOD
+RefactoringAction 1444825400391 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFals()=>void testIsStrike_ReturnFalse() METHOD
+EditAction 1444825400510 TestBowlingScoreCalculator.java 3264 11 60 11
