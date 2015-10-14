@@ -175,3 +175,17 @@ RefactoringAction 1444825399369 TestBowlingScoreCalculator.java RENAME testIsStr
 RefactoringAction 1444825400391 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFals()=>void testIsStrike_ReturnFalse() METHOD
 EditAction 1444825400510 TestBowlingScoreCalculator.java 3264 11 60 11
 EditAction 1444825476445 Frame.java 1238 10 14 0
+UnitTestCaseAction 1444825479059 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444825479059 TestBowlingScoreCalculator.testIsStrike_ReturnFalse OK
+RefactoringAction 1444825486462 TestBowlingScoreCalculator.java ADD void testIsStrike_ReturnFalse()/2 METHOD
+RefactoringAction 1444825582187 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFalse()/2=>void test() METHOD
+RefactoringAction 1444825584209 TestBowlingScoreCalculator.java RENAME test()=>void testScore() METHOD
+RefactoringAction 1444825585231 TestBowlingScoreCalculator.java RENAME testScore()=>void testScoreOf() METHOD
+RefactoringAction 1444825587753 TestBowlingScoreCalculator.java RENAME testScoreOf()=>void testScoreOfStrike() METHOD
+RefactoringAction 1444825591774 TestBowlingScoreCalculator.java RENAME testScoreOfStrike()=>void testScoreOfStrike_() METHOD
+RefactoringAction 1444825593296 TestBowlingScoreCalculator.java RENAME testScoreOfStrike_()=>void testScoreOfStrike_Return() METHOD
+RefactoringAction 1444825596818 TestBowlingScoreCalculator.java RENAME testScoreOfStrike_Return()=>void testScoreOfStrike_ReturnNineT() METHOD
+RefactoringAction 1444825598839 TestBowlingScoreCalculator.java RENAME testScoreOfStrike_ReturnNineT()=>void testScoreOfStrike_ReturnNineTeen() METHOD
+RefactoringAction 1444825599862 TestBowlingScoreCalculator.java RENAME testScoreOfStrike_ReturnNineTeen()=>void testScoreOfStrike_ReturnNineteen() METHOD
+RefactoringAction 1444825767497 BowlingGame.java ADD int getFrameScore(Frame) METHOD
+EditAction 1444825805789 TestBowlingScoreCalculator.java 3465 12 64 12

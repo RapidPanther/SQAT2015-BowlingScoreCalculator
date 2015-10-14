@@ -140,5 +140,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, isFrameStrike);
 	}
 	
+	@Test
+	public void testScoreOfStrike_ReturnNineteen(){
+		initializeFramesWithOneStrike();
+		addFrames();
+		
+		int score = bowlingGame.getFrameScore(0);
+		
+		assertEquals(false, score);
+	}
+	
 
 }
