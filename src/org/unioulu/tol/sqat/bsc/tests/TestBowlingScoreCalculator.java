@@ -17,11 +17,13 @@ public class TestBowlingScoreCalculator {
 	
 	
 	@Test
-	public void testAddFrame() {
+	public void testAddFrameTwoAndFour_ReturnTwoAndFour() {
 		Frame frame = new Frame(2, 4);
 		
 		assertEquals(2, frame.getFirstThrow());
 		assertEquals(4, frame.getSecondThrow());
 	}
+	
+	
 
 }
