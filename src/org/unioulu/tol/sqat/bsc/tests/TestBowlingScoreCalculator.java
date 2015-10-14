@@ -350,7 +350,7 @@ public class TestBowlingScoreCalculator {
 	public void testScoreOfStrikeOnLastPosition_ReturnNineteen(){
 		initializeFramesWithStrikeAsLastFrame();
 		addFrames();
-		bowlingGame.setBonus(7, 0);
+		bowlingGame.setBonus(7, 2);
 		
 		int score = bowlingGame.getFrameScore(9);
 		
