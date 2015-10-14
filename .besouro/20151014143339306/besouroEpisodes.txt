@@ -125,3 +125,7 @@
 1444826975236 refactoring 2B 2 true
 1444826975237 refactoring 3 2 true
 1444826975238 regression 1 2 true
+1444826988891 regression 2 8 true
+1444826988892 refactoring 2B 8 true
+1444826988893 refactoring 1B 8 true
+1444826988894 refactoring 3 8 true
