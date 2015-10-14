@@ -27,4 +27,6 @@ public class BowlingGame {
 		//to be implemented
 		return false;
 	}
+	
+	public Frame getFrame(int frameNumber)
 }

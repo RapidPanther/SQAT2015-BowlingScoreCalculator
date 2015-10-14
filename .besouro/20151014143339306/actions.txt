@@ -88,3 +88,5 @@ RefactoringAction 1444824036839 BowlingGame.java ADD Frame getFrame FIELD
 RefactoringAction 1444824037850 BowlingGame.java RENAME getFrame=>Frame getFrame() METHOD
 RefactoringAction 1444824042863 BowlingGame.java RENAME getFrame()=>Frame getFrame(int) METHOD
 EditAction 1444824164330 TestBowlingScoreCalculator.java 1969 6 33 6
+CompilationAction 1444824164625 TestBowlingScoreCalculator.java
+EditAction 1444824170366 BowlingGame.java 628 6 2 0
