@@ -68,7 +68,7 @@ public class TestBowlingScoreCalculator {
 		frame9 = new Frame(2, 6);
 	}
 	
-	public void initializeFramesWithOneStrikeAndOneSpare(){
+	public void initializeFramesWithOneStrikeFollowedByOneSpare(){
 		frame0 = new Frame(10, 0);
 		frame1 = new Frame(4, 6);
 		frame2 = new Frame(7, 2);
@@ -226,12 +226,21 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testScoreOfStrikeWithFollowingSpare_ReturnTwenty(){
-		initializeFramesWithOneStrikeAndOneSpare();
+		initializeFramesWithOneStrikeFollowedByOneSpare();
 		addFrames();
 		
 		int score = bowlingGame.getFrameScore(0);
 		
 		assertEquals(20, score);
+	}
+	
+	@Test
+	public void testScoreBowlingGameWithOneStrikeWithFollowingSpare_Return103(){
+		initializeFramesWithOneStrikeFollowedByOneSpare();
+		addFrames();
+		int score = bowlingGame.score();
+		
+		assertEquals(103, score);
 	}
 
 }
