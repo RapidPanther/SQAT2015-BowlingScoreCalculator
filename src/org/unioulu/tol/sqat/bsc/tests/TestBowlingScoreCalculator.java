@@ -203,194 +203,194 @@ public class TestBowlingScoreCalculator {
 		assertEquals(5, secondScoreFrameOne);
 	}
 	
-	@Test
-	public void testScoreBowlingGameWithDefaultFrames_ReturnEightyOne(){
-		initializeFrames();
-		addFrames();
-		int score = bowlingGame.score();
-		
-		assertEquals(81, score);
-	}
-	
-	@Test
-	public void testIsStrike_ReturnTrue(){
-		initializeFramesWithOneStrike();
-		addFrames();
-		
-		boolean isFrameStrike = bowlingGame.getFrame(0).isStrike();
-		
-		assertEquals(true, isFrameStrike);
-	}
-	
-	@Test
-	public void testIsStrike_ReturnFalse(){
-		initializeFramesWithOneStrike();
-		addFrames();
-		
-		boolean isFrameStrike = bowlingGame.getFrame(1).isStrike();
-		
-		assertEquals(false, isFrameStrike);
-	}
-	
-	@Test
-	public void testScoreOfStrike_ReturnNineteen(){
-		initializeFramesWithOneStrike();
-		addFrames();
-		
-		int score = bowlingGame.getFrameScore(0);
-		
-		assertEquals(19, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithOneStrike_Return94(){
-		initializeFramesWithOneStrike();
-		addFrames();
-		int score = bowlingGame.score();
-		
-		assertEquals(94, score);
-	}
-	
-	@Test
-	public void testIsSpare_ReturnFalse(){
-		initializeFramesWithOneSpare();
-		addFrames();
-		
-		boolean isFrameSpare = bowlingGame.getFrame(1).isSpare();
-		
-		assertEquals(false, isFrameSpare);
-	}
-	
-	@Test
-	public void testIsSpare_ReturnTrue(){
-		initializeFramesWithOneSpare();
-		addFrames();
-		
-		boolean isFrameSpare = bowlingGame.getFrame(0).isSpare();
-		
-		assertEquals(true, isFrameSpare);
-	}
-	
-	@Test
-	public void testScoreOfStrike_ReturnThirteen(){
-		initializeFramesWithOneSpare();
-		addFrames();
-		
-		int score = bowlingGame.getFrameScore(0);
-		
-		assertEquals(13, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithOneSpare_Return88(){
-		initializeFramesWithOneSpare();
-		addFrames();
-		int score = bowlingGame.score();
-		
-		assertEquals(88, score);
-	}
-	
-	@Test
-	public void testScoreOfStrikeWithFollowingSpare_ReturnTwenty(){
-		initializeFramesWithOneStrikeFollowedByOneSpare();
-		addFrames();
-		
-		int score = bowlingGame.getFrameScore(0);
-		
-		assertEquals(20, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithOneStrikeWithFollowingSpare_Return103(){
-		initializeFramesWithOneStrikeFollowedByOneSpare();
-		addFrames();
-		int score = bowlingGame.score();
-		
-		assertEquals(103, score);
-	}
-	
-	@Test
-	public void testScoreOfStrikeWithFollowingStrike_ReturnTwentyseven(){
-		initializeFramesWithOneStrikeFollowedByOneStrike();
-		addFrames();
-		
-		int score = bowlingGame.getFrameScore(0);
-		
-		assertEquals(27, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithOneStrikeWithFollowingStrike_Return112(){
-		initializeFramesWithOneStrikeFollowedByOneStrike();
-		addFrames();
-		int score = bowlingGame.score();
-		
-		assertEquals(112, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithOneSpareWithFollowingSpare_Return98(){
-		initializeFramesWithOneSpareFollowedByOneSpare();
-		addFrames();
-		int score = bowlingGame.score();
-		
-		assertEquals(98, score);
-	}
-	
-	@Test
-	public void testScoreOfSpareOnLastPosition_ReturnSeventeen(){
-		initializeFramesWithSpareAsLastFrame();
-		addFrames();
-		bowlingGame.setBonus(7, 0);
-		
-		int score = bowlingGame.getFrameScore(9);
-		
-		assertEquals(17, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithSpareAsLastFrame_Return90(){
-		initializeFramesWithSpareAsLastFrame();
-		addFrames();
-		bowlingGame.setBonus(7, 0);
-		
-		int score = bowlingGame.score();
-		
-		assertEquals(90, score);
-	}
-	
-	@Test
-	public void testScoreOfStrikeOnLastPosition_ReturnNineteen(){
-		initializeFramesWithStrikeAsLastFrame();
-		addFrames();
-		bowlingGame.setBonus(7, 2);
-		
-		int score = bowlingGame.getFrameScore(9);
-		
-		assertEquals(19, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithStrikeAsLastFrame_Return92(){
-		initializeFramesWithStrikeAsLastFrame();
-		addFrames();
-		bowlingGame.setBonus(7, 2);
-		
-		int score = bowlingGame.score();
-		
-		assertEquals(92, score);
-	}
-	
-	@Test
-	public void testScoreBowlingGameWithSpareAsLastFrameWithBonusTen_Return93(){
-		initializeFramesWithSpareAsLastFrame();
-		addFrames();
-		bowlingGame.setBonus(10, 0);
-		
-		int score = bowlingGame.score();
-		
-		assertEquals(93, score);
-	}
+//	@Test
+//	public void testScoreBowlingGameWithDefaultFrames_ReturnEightyOne(){
+//		initializeFrames();
+//		addFrames();
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(81, score);
+//	}
+//	
+//	@Test
+//	public void testIsStrike_ReturnTrue(){
+//		initializeFramesWithOneStrike();
+//		addFrames();
+//		
+//		boolean isFrameStrike = bowlingGame.getFrame(0).isStrike();
+//		
+//		assertEquals(true, isFrameStrike);
+//	}
+//	
+//	@Test
+//	public void testIsStrike_ReturnFalse(){
+//		initializeFramesWithOneStrike();
+//		addFrames();
+//		
+//		boolean isFrameStrike = bowlingGame.getFrame(1).isStrike();
+//		
+//		assertEquals(false, isFrameStrike);
+//	}
+//	
+//	@Test
+//	public void testScoreOfStrike_ReturnNineteen(){
+//		initializeFramesWithOneStrike();
+//		addFrames();
+//		
+//		int score = bowlingGame.getFrameScore(0);
+//		
+//		assertEquals(19, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithOneStrike_Return94(){
+//		initializeFramesWithOneStrike();
+//		addFrames();
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(94, score);
+//	}
+//	
+//	@Test
+//	public void testIsSpare_ReturnFalse(){
+//		initializeFramesWithOneSpare();
+//		addFrames();
+//		
+//		boolean isFrameSpare = bowlingGame.getFrame(1).isSpare();
+//		
+//		assertEquals(false, isFrameSpare);
+//	}
+//	
+//	@Test
+//	public void testIsSpare_ReturnTrue(){
+//		initializeFramesWithOneSpare();
+//		addFrames();
+//		
+//		boolean isFrameSpare = bowlingGame.getFrame(0).isSpare();
+//		
+//		assertEquals(true, isFrameSpare);
+//	}
+//	
+//	@Test
+//	public void testScoreOfStrike_ReturnThirteen(){
+//		initializeFramesWithOneSpare();
+//		addFrames();
+//		
+//		int score = bowlingGame.getFrameScore(0);
+//		
+//		assertEquals(13, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithOneSpare_Return88(){
+//		initializeFramesWithOneSpare();
+//		addFrames();
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(88, score);
+//	}
+//	
+//	@Test
+//	public void testScoreOfStrikeWithFollowingSpare_ReturnTwenty(){
+//		initializeFramesWithOneStrikeFollowedByOneSpare();
+//		addFrames();
+//		
+//		int score = bowlingGame.getFrameScore(0);
+//		
+//		assertEquals(20, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithOneStrikeWithFollowingSpare_Return103(){
+//		initializeFramesWithOneStrikeFollowedByOneSpare();
+//		addFrames();
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(103, score);
+//	}
+//	
+//	@Test
+//	public void testScoreOfStrikeWithFollowingStrike_ReturnTwentyseven(){
+//		initializeFramesWithOneStrikeFollowedByOneStrike();
+//		addFrames();
+//		
+//		int score = bowlingGame.getFrameScore(0);
+//		
+//		assertEquals(27, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithOneStrikeWithFollowingStrike_Return112(){
+//		initializeFramesWithOneStrikeFollowedByOneStrike();
+//		addFrames();
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(112, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithOneSpareWithFollowingSpare_Return98(){
+//		initializeFramesWithOneSpareFollowedByOneSpare();
+//		addFrames();
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(98, score);
+//	}
+//	
+//	@Test
+//	public void testScoreOfSpareOnLastPosition_ReturnSeventeen(){
+//		initializeFramesWithSpareAsLastFrame();
+//		addFrames();
+//		bowlingGame.setBonus(7, 0);
+//		
+//		int score = bowlingGame.getFrameScore(9);
+//		
+//		assertEquals(17, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithSpareAsLastFrame_Return90(){
+//		initializeFramesWithSpareAsLastFrame();
+//		addFrames();
+//		bowlingGame.setBonus(7, 0);
+//		
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(90, score);
+//	}
+//	
+//	@Test
+//	public void testScoreOfStrikeOnLastPosition_ReturnNineteen(){
+//		initializeFramesWithStrikeAsLastFrame();
+//		addFrames();
+//		bowlingGame.setBonus(7, 2);
+//		
+//		int score = bowlingGame.getFrameScore(9);
+//		
+//		assertEquals(19, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithStrikeAsLastFrame_Return92(){
+//		initializeFramesWithStrikeAsLastFrame();
+//		addFrames();
+//		bowlingGame.setBonus(7, 2);
+//		
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(92, score);
+//	}
+//	
+//	@Test
+//	public void testScoreBowlingGameWithSpareAsLastFrameWithBonusTen_Return93(){
+//		initializeFramesWithSpareAsLastFrame();
+//		addFrames();
+//		bowlingGame.setBonus(10, 0);
+//		
+//		int score = bowlingGame.score();
+//		
+//		assertEquals(93, score);
+//	}
 	
 	@Test
 	public void testScoreBestScore_Return300(){
