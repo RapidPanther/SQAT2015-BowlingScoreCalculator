@@ -43,15 +43,20 @@ public class BowlingGame {
 		score = frames.get(frameNumber).score();
 		
 		//strike
-		if(frames.get(frameNumber).isStrike() && frameNumber +1 < frames.size()){
-			score = score + frames.get(frameNumber +1).score();
-			
-			if(frames.get(frameNumber + 1).getFirstThrow() == 10 && frameNumber +1 < frames.size())
-			{
-				score = score + frames.get(frameNumber + 2).getFirstThrow();
-			}
+		if(frames.get(frameNumber).isStrike()){
+			if(frameNumber +1 < frames.size()){
+				score = score + frames.get(frameNumber +1).score();
 				
+				if(frames.get(frameNumber + 1).getFirstThrow() == 10 && frameNumber +1 < frames.size())
+				{
+					score = score + frames.get(frameNumber + 2).getFirstThrow();
+				}
+			}
+			else if(frameNumber +1 == frames.size()){
+				score = score + this.bonus.score();
+			}
 		}
+		
 		//spare
 		else if(frames.get(frameNumber).isSpare()){
 			if(frameNumber +1 < frames.size()){
