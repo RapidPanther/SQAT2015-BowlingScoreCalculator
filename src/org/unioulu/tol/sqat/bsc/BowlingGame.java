@@ -66,6 +66,7 @@ public class BowlingGame {
 				score = score + this.bonus.getFirstThrow();
 			}
 		}
+		System.out.println(score);
 			
 		return score;
 	}
