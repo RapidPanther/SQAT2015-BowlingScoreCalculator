@@ -95,5 +95,13 @@ public class TestBowlingScoreCalculator {
 		assertEquals(5, secondScoreFrameOne);
 	}
 	
+	@Test
+	public void testScoreBowlingGameWithDefaultFrames_ReturnEightyOne(){
+		addFrames();
+		int score = bowlingGame.score();
+		
+		assertEquals(81, score);
+	}
+	
 
 }
