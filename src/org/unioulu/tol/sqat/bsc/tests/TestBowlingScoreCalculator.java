@@ -235,7 +235,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreBowlingGameWithOneStrikeWithFollowingSpare_Return103(){
+	public void testScoreBowlingGameWithOneStrikeWithFollowingSpare_Return102(){
 		initializeFramesWithOneStrikeFollowedByOneSpare();
 		addFrames();
 		int score = bowlingGame.score();
