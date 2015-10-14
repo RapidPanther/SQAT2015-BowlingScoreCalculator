@@ -192,3 +192,6 @@ EditAction 1444825805789 TestBowlingScoreCalculator.java 3465 12 64 12
 CompilationAction 1444825805914 TestBowlingScoreCalculator.java
 RefactoringAction 1444825815283 BowlingGame.java RENAME getFrameScore(Frame)=>int getFrameScore(int) METHOD
 EditAction 1444825988114 BowlingGame.java 1051 7 10 0
+UnitTestCaseAction 1444825990316 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444825990316 TestBowlingScoreCalculator.testIsStrike_ReturnFalse OK
+EditAction 1444826045693 TestBowlingScoreCalculator.java 3468 12 64 12
