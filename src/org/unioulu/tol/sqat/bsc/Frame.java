@@ -27,8 +27,13 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		boolean isSpare = false;
+		
+		if(this.score() == 10 && this.getFirstThrow() != 10){
+			isSpare = true;
+		}
+		
+		return isSpare;
 	}
 
 	//return whether this is the last frame of the match
