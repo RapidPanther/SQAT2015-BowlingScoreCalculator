@@ -10,3 +10,4 @@
 1444824999684 test-addition 1 269 true
 1444825479059 test-first 3 479 true
 1444825990316 test-first 2 511 true
+1444826047298 regression 1 56 true
