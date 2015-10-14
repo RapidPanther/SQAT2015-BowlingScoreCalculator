@@ -150,6 +150,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(19, score);
 	}
 	
+	@Test
+	public void testScoreBowlingGameWithOneStrike_Return94(){
+		initializeFramesWithOneStrike();
+		addFrames();
+		int score = bowlingGame.score();
+		
+		assertEquals(94, score);
+	}
+	
 	
 	
 
