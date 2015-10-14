@@ -157,3 +157,11 @@ RefactoringAction 1444824960169 TestBowlingScoreCalculator.java RENAME initializ
 RefactoringAction 1444824977480 TestBowlingScoreCalculator.java REMOVE addFramesWithOneStrike() METHOD
 EditAction 1444824978701 TestBowlingScoreCalculator.java 2782 9 50 9
 EditAction 1444824997309 TestBowlingScoreCalculator.java 2828 9 52 9
+UnitTestCaseAction 1444824999684 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824999684 TestBowlingScoreCalculator OK
+RefactoringAction 1444825008640 TestBowlingScoreCalculator.java ADD void testScoreBowlingGameWithDefaultFrames_ReturnEightyOne()/2 METHOD
+RefactoringAction 1444825069181 TestBowlingScoreCalculator.java RENAME testScoreBowlingGameWithDefaultFrames_ReturnEightyOne()/2=>void testIs_ReturnEightyOne() METHOD
+RefactoringAction 1444825073714 TestBowlingScoreCalculator.java RENAME testIs_ReturnEightyOne()=>void testIsNextFrameBonus_ReturnEightyOne() METHOD
+RefactoringAction 1444825080734 TestBowlingScoreCalculator.java RENAME testIsNextFrameBonus_ReturnEightyOne()=>void testIsNextFrameBonus_ReturnTrue() METHOD
+RefactoringAction 1444825213312 TestBowlingScoreCalculator.java RENAME testIsNextFrameBonus_ReturnTrue()=>void testIsStrike_ReturnTrue() METHOD
+EditAction 1444825354194 TestBowlingScoreCalculator.java 3045 10 56 10

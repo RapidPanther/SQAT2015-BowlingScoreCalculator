@@ -120,5 +120,15 @@ public class TestBowlingScoreCalculator {
 		assertEquals(81, score);
 	}
 	
+	@Test
+	public void testIsStrike_ReturnTrue(){
+		initializeFramesWithOneStrike();
+		addFrames();
+		
+		boolean isFrameStrike = bowlingGame.getFrame(0).isStrike();
+		
+		assertEquals(true, isFrameStrike);
+	}
+	
 
 }
