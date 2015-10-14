@@ -165,3 +165,7 @@ RefactoringAction 1444825073714 TestBowlingScoreCalculator.java RENAME testIs_Re
 RefactoringAction 1444825080734 TestBowlingScoreCalculator.java RENAME testIsNextFrameBonus_ReturnEightyOne()=>void testIsNextFrameBonus_ReturnTrue() METHOD
 RefactoringAction 1444825213312 TestBowlingScoreCalculator.java RENAME testIsNextFrameBonus_ReturnTrue()=>void testIsStrike_ReturnTrue() METHOD
 EditAction 1444825354194 TestBowlingScoreCalculator.java 3045 10 56 10
+RefactoringAction 1444825360716 TestBowlingScoreCalculator.java ADD void testIsStrike_ReturnTrue()/2 METHOD
+RefactoringAction 1444825363236 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnTrue()/2=>void testIsStrike_ReturnFa() METHOD
+RefactoringAction 1444825364258 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFa()=>void testIsStrike_ReturnFalls() METHOD
+EditAction 1444825366073 TestBowlingScoreCalculator.java 3263 11 60 11
