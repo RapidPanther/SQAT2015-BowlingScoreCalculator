@@ -482,3 +482,4 @@ RefactoringAction 1444829724127 TestBowlingScoreCalculator.java ADD void testSco
 RefactoringAction 1444829724127 TestBowlingScoreCalculator.java ADD void testScoreBowlingGameWithStrikeAsLastFrame_Return92() METHOD
 RefactoringAction 1444829724127 TestBowlingScoreCalculator.java ADD void testScoreBowlingGameWithSpareAsLastFrameWithBonusTen_Return93() METHOD
 EditAction 1444829724500 TestBowlingScoreCalculator.java 9608 35 204 28
+EditAction 1444829897269 TestBowlingScoreCalculator.java 9598 35 204 28

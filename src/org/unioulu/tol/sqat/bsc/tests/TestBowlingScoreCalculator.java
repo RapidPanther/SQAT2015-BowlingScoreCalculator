@@ -134,16 +134,16 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	public void initializeFramesWithBestScore(){
-		frame0 = new Frame(10, 10);
-		frame1 = new Frame(10, 10);
-		frame2 = new Frame(10, 10);
-		frame3 = new Frame(10, 10);
-		frame4 = new Frame(10, 10);
-		frame5 = new Frame(10, 10);
-		frame6 = new Frame(10, 10);
-		frame7 = new Frame(10, 10);
-		frame8 = new Frame(10, 10);
-		frame9 = new Frame(10, 10);
+		frame0 = new Frame(10, 0);
+		frame1 = new Frame(10, 0);
+		frame2 = new Frame(10, 0);
+		frame3 = new Frame(10, 0);
+		frame4 = new Frame(10, 0);
+		frame5 = new Frame(10, 0);
+		frame6 = new Frame(10, 0);
+		frame7 = new Frame(10, 0);
+		frame8 = new Frame(10, 0);
+		frame9 = new Frame(10, 0);
 	}
 	
 	
