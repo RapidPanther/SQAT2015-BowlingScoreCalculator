@@ -174,3 +174,4 @@ UnitTestSessionAction 1444825367703 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444825399369 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFalls()=>void testIsStrike_ReturnFals() METHOD
 RefactoringAction 1444825400391 TestBowlingScoreCalculator.java RENAME testIsStrike_ReturnFals()=>void testIsStrike_ReturnFalse() METHOD
 EditAction 1444825400510 TestBowlingScoreCalculator.java 3264 11 60 11
+EditAction 1444825476445 Frame.java 1238 10 14 0
