@@ -272,7 +272,7 @@ public class TestBowlingScoreCalculator {
 		addFrames();
 		int score = bowlingGame.score();
 		
-		assertEquals(111, score);
+		assertEquals(112, score);
 	}
 
 }
