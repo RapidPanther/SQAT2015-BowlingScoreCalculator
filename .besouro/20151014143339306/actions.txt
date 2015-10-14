@@ -328,3 +328,6 @@ UnitTestCaseAction 1444827711442 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444827711442 TestBowlingScoreCalculator OK
 RefactoringAction 1444827811957 TestBowlingScoreCalculator.java ADD void testScoreBowlingGameWithOneStrikeWithFollowingStrike_Return112()/2 METHOD
 EditAction 1444827907561 TestBowlingScoreCalculator.java 7305 27 148 23
+CompilationAction 1444827907843 TestBowlingScoreCalculator.java
+RefactoringAction 1444827912007 TestBowlingScoreCalculator.java REMOVE testScoreBowlingGameWithOneStrikeWithFollowingStrike_Return112()/2 METHOD
+EditAction 1444827939171 BowlingGame.java 1355 7 10 0
