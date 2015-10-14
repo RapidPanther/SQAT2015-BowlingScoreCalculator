@@ -391,3 +391,4 @@ RefactoringAction 1444828793646 TestBowlingScoreCalculator.java RENAME initializ
 RefactoringAction 1444828794672 TestBowlingScoreCalculator.java RENAME initializeFramesWithStrikeAsLastFramre()=>void initializeFramesWithStrikeAsLastFramr() METHOD
 RefactoringAction 1444828799223 TestBowlingScoreCalculator.java RENAME initializeFramesWithStrikeAsLastFramr()=>void initializeFramesWithStrikeAsLastFrame() METHOD
 EditAction 1444828799805 TestBowlingScoreCalculator.java 8270 30 174 24
+EditAction 1444828812120 TestBowlingScoreCalculator.java 8271 30 174 24
