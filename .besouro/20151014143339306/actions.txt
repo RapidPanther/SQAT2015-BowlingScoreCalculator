@@ -434,3 +434,6 @@ RefactoringAction 1444829404404 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444829421647 TestBowlingScoreCalculator.java ADD void initializeFramesWithStrikeAsLastFrame()/2 METHOD
 RefactoringAction 1444829430664 TestBowlingScoreCalculator.java RENAME initializeFramesWithStrikeAsLastFrame()/2=>void initializeFramesWithBestScore() METHOD
 EditAction 1444829460055 TestBowlingScoreCalculator.java 9444 35 199 27
+RefactoringAction 1444829484063 TestBowlingScoreCalculator.java RENAME testScoreBestScore()=>void testScoreBestScore_Return() METHOD
+RefactoringAction 1444829489096 TestBowlingScoreCalculator.java RENAME testScoreBestScore_Return()=>void testScoreBestScore_Return300() METHOD
+EditAction 1444829511691 TestBowlingScoreCalculator.java 9608 35 204 28

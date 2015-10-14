@@ -393,8 +393,14 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreBestScore(){
+	public void testScoreBestScore_Return300(){
+		initializeFramesWithBestScore();
+		addFrames();
+		bowlingGame.setBonus(10, 10);
 		
+		int score = bowlingGame.score();
+		
+		assertEquals(300, score);
 	}
 
 }
