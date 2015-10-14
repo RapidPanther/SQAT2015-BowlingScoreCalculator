@@ -350,3 +350,8 @@ RefactoringAction 1444828133134 TestBowlingScoreCalculator.java RENAME testScore
 EditAction 1444828211476 BowlingGame.java 1397 7 11 0
 EditAction 1444828342861 BowlingGame.java 1521 7 11 0
 EditAction 1444828346671 TestBowlingScoreCalculator.java 7665 28 159 23
+RefactoringAction 1444828364221 TestBowlingScoreCalculator.java ADD void testScoreOfStrikeWithFollowingStrike_ReturnTwentyseven()/2 METHOD
+RefactoringAction 1444828369249 TestBowlingScoreCalculator.java RENAME testScoreOfStrikeWithFollowingStrike_ReturnTwentyseven()/2=>void testScoreOfSpare_ReturnTwentyseven() METHOD
+RefactoringAction 1444828373779 TestBowlingScoreCalculator.java RENAME testScoreOfSpare_ReturnTwentyseven()=>void testScoreOfSpareOnLastPosition_ReturnTwentyseven() METHOD
+RefactoringAction 1444828387602 TestBowlingScoreCalculator.java RENAME testScoreOfSpareOnLastPosition_ReturnTwentyseven()=>void testScoreOfSpareOnLastPosition_ReturnSeventeen() METHOD
+EditAction 1444828410938 TestBowlingScoreCalculator.java 7915 29 164 24

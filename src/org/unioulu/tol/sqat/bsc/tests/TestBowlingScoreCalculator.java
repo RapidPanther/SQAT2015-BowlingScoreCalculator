@@ -311,6 +311,17 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testScoreOfSpareOnLastPosition_ReturnSeventeen(){
+		initializeFramesWithSpareAsLastFrame();
+		addFrames();
+		bowlingGame.setBonus(7, 0);
+		
+		int score = bowlingGame.getFrameScore(9);
+		
+		assertEquals(27, score);
+	}
+	
+	@Test
 	public void testScoreBowlingGameWithSpareAsLastFrame_Return90(){
 		initializeFramesWithSpareAsLastFrame();
 		addFrames();
