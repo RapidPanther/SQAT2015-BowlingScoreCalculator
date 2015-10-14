@@ -54,10 +54,10 @@ public class BowlingGame {
 		}
 		//spare
 		else if(frames.get(frameNumber).isSpare() && frameNumber +1 < frames.size()){
-			score = score + frames.get(frameNumber +1).getFirstThrow();
-			
-			//if(frameNumber == frames.size() -1){
-			if(frameNumber == 9){
+			if(frameNumber +1 < frames.size()){
+				score = score + frames.get(frameNumber +1).getFirstThrow();
+			}
+			else if(frameNumber == frames.size() -1){
 				score = score + this.bonus.getFirstThrow();
 				System.out.println(this.bonus.getFirstThrow());
 			}
