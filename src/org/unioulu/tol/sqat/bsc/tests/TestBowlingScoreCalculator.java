@@ -348,7 +348,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testScoreOfStrikeOnLastPosition_ReturnNineteen(){
-		initializeFramesWithSpareAsLastFrame();
+		initializeFramesWithStrikeAsLastFrame();
 		addFrames();
 		bowlingGame.setBonus(7, 0);
 		
@@ -359,7 +359,7 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testScoreBowlingGameWithStrikeAsLastFrame_Return92(){
-		initializeFramesWithSpareAsLastFrame();
+		initializeFramesWithStrikeAsLastFrame();
 		addFrames();
 		bowlingGame.setBonus(7, 2);
 		
